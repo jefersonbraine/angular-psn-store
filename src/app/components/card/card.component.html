@@ -1,14 +1,14 @@
 <a href="#" class="card__container">
 	<img
 		class="card__img"
-		src="https://upload.wikimedia.org/wikipedia/pt/1/10/Battlefield_5_capa.png"
+		src="{{ gameCover }}"
 		alt=""
 	/>
 	<app-card-label
-			gameLabel="Exclusive"
+			gameLabel="{{gameLabel}}"
 		>
 	</app-card-label>
 	<app-card-pricing
-	gameType="DIGITAL PS4"
-	gamePrice="R$ 399,90"></app-card-pricing>
+	gameType="{{gameType}}"
+	gamePrice="{{gamePrice}}"></app-card-pricing>
 </a>
